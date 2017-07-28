@@ -14,9 +14,10 @@ class App extends Component {
         <div className="App">
           <Header />
           {/* <h2>React App</h2> */}
+          {/* Partial page routes */}
           <Route exact path="/" component={Home} />
           <Route path="/nested" component={Nested} />
-          <Route path="/params" component={Params} />
+          <Route path="/params/:name" component={Params} />
         </div>
       </BrowserRouter>
     );

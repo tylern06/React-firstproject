@@ -10,7 +10,7 @@ class Header extends React.Component {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/params">Params</Link>
+            <Link to="/params/Banksky">Params</Link>
           </li>
           <li>
             <Link to="/nested">Nested</Link>

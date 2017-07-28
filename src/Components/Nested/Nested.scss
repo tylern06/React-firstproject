@@ -1,1 +1,23 @@
-
+#sub-menu {
+  height: 90vh;
+  background-color: #e08e79;
+}
+#sub-menu a {
+  color: #faebd7 !important;
+  font-size: 24px;
+}
+#assignments {
+  background-color: #f1d4af;
+}
+#lectures {
+  background-color: #ece5ce;
+}
+#events {
+  background-color: #c5e0dc;
+}
+.main-content {
+  text-align: center;
+  height: 90vh;
+  overflow: hidden;
+  padding: 0px !important;
+}
